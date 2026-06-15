@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxWise | Income Tax Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page">
+    <div class="card">
+
+      <!-- Top bar -->
+      <header class="topbar">
+        <div class="logo">
+          <span class="logo-mark"></span>
+          TaxWise
+        </div>
+        <nav class="top-links">
+          <a href="#">About</a>
+          <a href="#" class="active-link">New Regime · FY 2025-26</a>
+        </nav>
+      </header>
+
+      <!-- Slab pills -->
+      <div class="pills">
+        <span class="pill">Up to ₹12L: Nil</span>
+        <span class="pill">₹12L – 16L: 15%</span>
+        <span class="pill">₹16L – 20L: 20%</span>
+        <span class="pill">₹20L – 24L: 25%</span>
+        <span class="pill">Above ₹24L: 30%</span>
+      </div>
+
+      <!-- Hero / calculator section -->
+      <main class="hero">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+
+        <span class="mark">&#8377;</span>
+
+        <form>
+          <label for="income">Enter your annual income</label>
+          <div class="input-row">
+            <input type="number" id="income" placeholder="e.g. 1500000" min="0" required />
+            <button type="submit">Calculate Tax</button>
+          </div>
+        </form>
+
+        <h2 id="result">Enter your income to see the tax</h2>
+
+        <p class="subtitle">Based on the new tax regime slabs for FY 2025-26.</p>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p class="news"><span class="dot"></span><strong>Note:</strong>&nbsp; This is an estimate and excludes cess and rebates.</p>
+        <div class="socials">
+          <a href="https://github.com/yashrajsahu44" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/yashraj-sahu-588825375" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://yashrajsahu44.github.io/portfolio/">Portfolio</a>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
