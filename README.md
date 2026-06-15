@@ -6,6 +6,12 @@ A clean, brutalist-styled income tax calculator based on India's **New Tax Regim
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+### 🔗 [Visit Live Site](https://yashrajsahu44.github.io/TaxWise/)
+
+## 🖼️ Preview
+
+![TaxWise UI Preview](./preview.png)
+
 ## ✨ Features
 
 - Calculates tax instantly based on the New Regime slab rates
@@ -34,9 +40,11 @@ A clean, brutalist-styled income tax calculator based on India's **New Tax Regim
 
 ## 🚀 Getting Started
 
+You can either visit the [live site](https://yashrajsahu44.github.io/TaxWise/) or run it locally:
+
 1. Clone the repository
    ```bash
-   git clone https://github.com/yashrajsahu44/taxwise.git
+   git clone https://github.com/yashrajsahu44/TaxWise.git
    ```
 2. Open `index.html` in your browser — that's it, no build step required.
 
@@ -50,8 +58,4 @@ taxwise/
 └── README.md
 ```
 
-## 👤 Author
 
-**Yashraj Sahu**
-- GitHub: [@yashrajsahu44](https://github.com/yashrajsahu44)
-- LinkedIn: [Yashraj Sahu](https://www.linkedin.com/in/yashraj-sahu-588825375)
